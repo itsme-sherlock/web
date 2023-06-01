@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h3>Customize Your Trip</h3>
+            <label for="no-of-persons">Total Number of persons</label>
+            <input type="number" id="no-of-persons" placeholder="Number of persons" >
+            
+            <div class="check-in-out">
+                <div class="label-check">
+                    <label for="check-in">Hotel Check In</label>
+                </div>
+                
+                <input type="date" id="check-in" name="check-in " >
+                <div class="label-check">
+                    <label for="check-out">Hotel Check out</label>
+                </div>
+                
+                <input type="date" id="check-out" name="check-out " >
+            </div>
+            
+
+            <label for="no-of-persons">Choose Your Rooms</label>
+            <div class="room-options">
+                <span>
+                    <label for="twoshare">Two sharing Rooms</label>
+        
+                    <select name="twoshare" id="twoshare">
+                        <option value="1">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                    </select>
+                </span>
+                
+                
+
+                 <span>
+                    <label for="threeshare">Three sharing Rooms</label>
+        
+                    <select name="threeshare" id="threeshare">                     
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                    </select>
+                 </span>   
+                
+                 <span>
+                    <label for="fourshare">Four sharing Rooms</label>
+        
+                    <select name="fourshare" id="fourshare">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                    </select>
+                 </span>
+                    
+                
+            </div>
+
+            <div class="food">
+                <label for="food-select">Choose the Food type</label>
+        
+                    <select name="food-select" id="food-id">
+                        <option value="0">No Food</option>
+                        <option value="1">breakfast only</option>
+                        <option value="2">breakfast and lunch</option>
+                        <option value="3">breakfast lunch and dinner</option>
+                    </select>
+                
+            </div>
+            <div class="Submit">
+                <button type="button">Submit</button>
+            </div>
+            <div id="result">
+            </div>
+              
+            
+        </form>
+    </div>
+    
+<script src="script.js"></script>
+</body>
+</html> 
